@@ -1,4 +1,4 @@
-FROM bitnami/fluentd
+FROM bitnami/fluentd:1.12.0-debian-10-r16
 
 ## Install custom Fluentd plugins
 RUN fluent-gem install 'fluent-plugin-dedot_filter' \
