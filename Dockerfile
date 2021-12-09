@@ -1,4 +1,4 @@
-FROM bitnami/fluentd:1.13.3-debian-10-r17
+FROM bitnami/fluentd:1.14.3-debian-10-r11
 
 USER root
 
